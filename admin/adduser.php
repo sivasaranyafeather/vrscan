@@ -2,7 +2,15 @@
 session_start();
 
 include 'config.php';
-
+if (!isset($_SESSION['user'])) {
+  ?>
+  <script>
+    alert('Session denied. Please go to the login page.');
+    window.open('login', '_self');
+  </script>
+  <?php
+  exit();
+}
 
 
 if (isset($_POST['submit'])) {

@@ -1,4 +1,17 @@
+
 <?php
+session_start();
+include 'config.php';
+if (!isset($_SESSION['user'])) {
+  ?>
+  <script>
+    alert('Session denied. Please go to the login page.');
+    window.open('login', '_self');
+  </script>
+  <?php
+  exit();
+}
+
 include 'config.php';
 $id = $_GET['id'];
 
@@ -37,14 +50,14 @@ if (isset($_POST['update'])) {
             ?>
             <script>
                 alert('Update Successfully!');
-                window.open('list_data.php', '_self');
+                window.open('list_data', '_self');
             </script>
             <?php
         } else {
             ?>
             <script>
                 alert('Not Updated Values!');
-                window.open('list_data.php', '_self');
+                window.open('list_data', '_self');
             </script>
             <?php
         }
@@ -118,7 +131,7 @@ if (isset($_POST['update'])) {
                                </div>
                            </div>
                        </div>
-                       <a href="index.php">
+                       <a href="index">
                            <img width="100px" height="40px" class="img-fluid" src="logo/logo.jpg" alt="Theme-Logo" />
                        </a>
                        <a class="mobile-options">
@@ -151,7 +164,7 @@ if (isset($_POST['update'])) {
                                <a href="#!">
                                
                                  
-                                   <a href="logout.php">
+                                   <a href="logout">
                                            <i class="ti-user"></i> LogOut
                                        </a></i>
                                 
@@ -185,28 +198,28 @@ if (isset($_POST['update'])) {
                             <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Image &amp; ManageMent</div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li>
-                                    <a href="index.php">
+                                    <a href="index">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">Add Images</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="list_data.php">
+                                    <a href="list_data">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">List Images</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
                                  <li>
-                                    <a href="adduser.php">
+                                    <a href="adduser">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">Add User</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
                                  <li>
-                                    <a href="list_user.php">
+                                    <a href="list_user">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">List User</span>
                                         <span class="pcoded-mcaret"></span>

@@ -5,7 +5,7 @@ if (isset($_SESSION['user'])) {
  
     $_SESSION['msg'] = "You are successfully logged out";
     unset($_SESSION['user']);
-    header('Location: login.php'); 
+    header('Location: login'); 
     exit(); 
 }
 session_destroy(); 

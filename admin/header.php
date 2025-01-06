@@ -75,7 +75,7 @@
                                <a href="#!">
                                
                                    <span><?php  echo $_SESSION['user']; ?></span>
-                                   <a href="logout.php">
+                                   <a href="logout">
                                            <i class="ti-user"></i> LogOut
                                        </a></i>
                                 
@@ -109,14 +109,14 @@
                             Image &amp; ManageMent</div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li>
-                                    <a href="index.php">
+                                    <a href="index">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">Add Images</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
                                  <li>
-                                    <a href="list_data.php">
+                                    <a href="list_data">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">List Images</span>
                                         <span class="pcoded-mcaret"></span>
@@ -124,14 +124,14 @@
                                 </li>
 
                                 <li>
-                                    <a href="adduser.php">
+                                    <a href="adduser">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">Add User</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
                                  <li>
-                                    <a href="list_user.php">
+                                    <a href="list_user">
                                         <span class="pcoded-micon"><i class="ti-layers"></i></span>
                                         <span class="pcoded-mtext" data-i18n="nav.form-components.main">List User</span>
                                         <span class="pcoded-mcaret"></span>

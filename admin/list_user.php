@@ -1,6 +1,15 @@
 <?php
 session_start();
 include 'config.php';
+if (!isset($_SESSION['user'])) {
+  ?>
+  <script>
+    alert('Session denied. Please go to the login page.');
+    window.open('login', '_self');
+  </script>
+  <?php
+  exit();
+}
 ?>
 
 <?php include 'header.php'; ?>
@@ -72,10 +81,10 @@ include 'config.php';
                                                         </td>
                                                           <td style="text-align:center;width:15%;"><?php echo $row['role']; ?></td>
                                                         <td style="width:25%;">
-                                                            <a href="user_edit.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-info">Edit & Change password </a>
+                                                            <a href="user_edit?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-info">Edit & Change password </a>
                                                         </td>
                                                         <td style="width:10%;">
-                                                            <a href="user_delete.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                                                            <a href="user_delete?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
                                                         </td>
                                                     </tr>
                                                     <?php

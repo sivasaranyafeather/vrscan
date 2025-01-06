@@ -1,6 +1,15 @@
 <?php
 session_start();
 include 'config.php';
+if (!isset($_SESSION['user'])) {
+  ?>
+  <script>
+    alert('Session denied. Please go to the login page.');
+    window.open('login', '_self');
+  </script>
+  <?php
+  exit();
+}
 ?>
 
 <?php include 'header.php'; ?>
@@ -76,10 +85,10 @@ include 'config.php';
                                                          </td>
                                                           <td style="text-align:center;width:10%;"><?php echo $row['description']; ?></td>
                                                          <td style="width:10%;">
-                                                            <a href="update.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-info">Edit</a>
+                                                            <a href="update?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-info">Edit</a>
                                                          </td>
                                                          <td style="width:10%;">
-                                                            <a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                                                            <a href="delete?id=<?php echo $row['id']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
                                                          </td>
                                                      </tr>      
                                                      <?php

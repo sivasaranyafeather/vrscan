@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
     
         if (password_verify($password, $hashed_password)) {
             $_SESSION['user'] = $name; 
-            header("Location: index.php");
+            header("Location: index");
             exit();
         } else {
             echo "<script>alert('Invalid username or password!');</script>";

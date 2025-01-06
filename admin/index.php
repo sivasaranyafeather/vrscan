@@ -7,7 +7,7 @@ if (!isset($_SESSION['user'])) {
   ?>
   <script>
     alert('Session denied. Please go to the login page.');
-    window.open('login.php', '_self');
+    window.open('login', '_self');
   </script>
   <?php
   exit();
