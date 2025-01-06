@@ -1,0 +1,371 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.para {
+  text-align: justify;
+}
+
+/* main ---------------------------------------- */
+.main {
+  text-align: center;
+}
+
+.homeicon p {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.homeicon h5 a {
+  text-decoration: none;
+  color: white;
+}
+.homecol a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-link {
+  color: var(--black-color);
+  transition: 0.5s;
+  font-weight: 500;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #fdc543 !important;
+}
+.navbar-brand {
+  color: white;
+}
+.navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  /* background-color: #182e76; */
+  /* background-image: linear-gradient(to right, #ffffff , #182e76); */
+}
+#navbar {
+  background-color: #ffffff !important;
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-item a {
+  color: #000000;
+}
+.appointment{
+  border: none;
+  border-radius: 10px;
+  font-weight:500;
+  background-color: green;
+}
+.appointment a{
+  color: white;
+}
+.appointment:hover{
+  background-color: #fdc543;
+}
+.appointment a:hover{
+  color: black;
+}
+@media only screen and (max-width: 774px) {
+  #navbar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 774px) {
+  #mobnav {
+    display: none;
+  }
+}
+
+
+.card {
+  background-color: #182e76;
+  border: 1px solid white;
+  padding: 0 !important;
+}
+.card-body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+@media only screen and (max-width: 600px) {
+  .navbar img {
+    width: 35%;
+  }
+  .appointment{
+    border: none;
+    border-radius: 10px;
+    font-weight:200;
+    background-color: green;
+    font-size: 1rem;
+  }
+  .appointment a{
+    color: white;
+  }
+}
+/* banner area ---------------------------------- */
+.banner {
+  /* background: url("images/banner.jpg") no-repeat; */
+  /* background-blend-mode: darken; */
+  /* background-size: cover; */
+  /* width: 100%;
+  color: white;
+  height: 580px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold; */
+}
+.bannersub {
+  padding: 2%;
+}
+
+.bannersub button {
+  padding: 8px;
+  background-color: #182e76;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.bannersub h1 {
+  text-transform: uppercase;
+}
+.banner img {
+  width: 100%;
+}
+.bannercard {
+  background-color: #fdc543;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+}
+#bannercard {
+  background-color: #182e76;
+  color: white;
+}
+.testing {
+  text-align: justify;
+}
+.testing h6 {
+  text-align: center;
+}
+.valuecard {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 10px;
+  height: 100%;
+  border-radius: 10px;
+}
+.valuecard h5 {
+  text-align: center;
+}
+/* backgroung image part ----------------------- */
+.fixbanner {
+  background: rgba(0, 0, 0, 0.4) url("images/fixbanner.jpg");
+  background-blend-mode: darken;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.bgbutton button {
+  background-color: #d01119;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+/* services part ----------------------------------- */
+.servicebox {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 10px;
+  /* margin: 2px; */
+  text-align: center;
+  border-radius: 10px;
+  height: 100%;
+}
+
+/* about part  -----------------------------------------*/
+.vimi {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.vimi h4 {
+  text-align: center;
+}
+
+/* need part start ------------------------------------- */
+.need {
+  background-color: #182e76;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.needpart {
+  background-color: #d01119;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.needpart a {
+  color: #fdc543;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .need{
+    display: none;  
+  }
+}
+
+.scooty img {
+  animation: wobble 2s ease infinite;
+}
+
+@keyframes wobble {
+
+  0% {
+    transform: translateX(0%);
+  }
+
+  15% {
+    transform: translateX(-25%) rotate(-5deg);
+  }
+
+  30% {
+    transform: translateX(20%) rotate(3deg);
+  }
+
+  45% {
+    transform: translateX(-15%) rotate(-3deg);
+  }
+
+  60% {
+    transform: translateX(10%) rotate(2deg);
+  }
+
+  75% {
+    transform: translateX(-5%) rotate(-1deg);
+  }
+
+  100% {
+    transform: translateX(-3%);
+  }
+}
+
+/* footer ares start -------------------------------------------*/
+.footer {
+  /* background-color: #182e76; */
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 20px;
+}
+.footer h4 {
+  color: #d01119;
+}
+.footer p {
+  color: #182e76;
+}
+.footer i {
+  font-size: 13px;
+}
+.footer a {
+  text-decoration: none;
+}
+.foot h4 {
+  position: relative;
+  padding-bottom: 8px;
+}
+.foot a{
+  color: #182e76;
+}
+.foot h4::after {
+  content: "";
+  width: 18%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid #d01119;
+}
+.footnum a {
+  color: #d01119;
+}
+
+.foot ul li {
+  list-style: none;
+}
+.foot ul li i {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #182e76;
+}
+.conicon {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 10px;
+  border-radius: 20px;
+  height: 100%;
+}
+.conicon h6 {
+  font-size: 15px;
+}
+.conicon a {
+  text-decoration: none;
+  color: black;
+}
+.conicon i {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: #d01119;
+}
+
+/* whats app pin  */
+.whats_pin img {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 6%;
+}
+@media only screen and (max-width: 600px) {
+  .whats_pin img{
+    width: 15%;
+  }
+}
+
+/* ADVANCED CLINICAL LAB part  */
+#advanced a {
+  text-decoration: none;
+  color: black;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #d01119;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 2rem;
+  color: #d01119;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+
+
