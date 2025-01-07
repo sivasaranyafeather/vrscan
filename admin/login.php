@@ -1,10 +1,6 @@
 <?php
 session_start();
-$con = new mysqli('localhost', 'root', '', 'vrscans');
-
-if ($con->connect_error) {
-    die("Connection failed: " . $con->connect_error);
-}
+include 'config.php';
 
 if (isset($_POST['login'])) {
     $name = $_POST['name'];
@@ -177,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
            <i class="fa fa-user-circle"></i>
          </span>
         <!--   user name Input-->
-         <input class="form-input"  name="name" id="txt-input" type="text" placeholder="@UserName" required>
+         <input class="form-input"  name="name" id="txt-input" autocomplete="off" type="text" placeholder="@UserName" required>
      
       <br>
      
@@ -187,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <i class="fa fa-key"></i>
        </span>
       <!--   Password Input-->
-      <input class="form-input" type="password"  name="password"  placeholder="Password" id="pwd"  name="password" required>
+      <input class="form-input" type="password" autocomplete="off" name="password"  placeholder="Password" id="pwd"  name="password" required>
      
 <!--      Show/hide password  -->
      <span>

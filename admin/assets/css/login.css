@@ -11,16 +11,16 @@
 
 /* Start body rules */
 body {
-  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-  /* background-image: url(../../Image/banner.jpg);
-  background-image: cover; */
+  /* background-image: linear-gradient(-225deg, #efa110 0%, #d7252c 100%); 
+  background-image: linear-gradient(to top, #efa110 0%, #d7252c 100%); */
+  background-image: url(../../Image/banner.jpg);
+  background-size: cover !important;
   background-attachment: fixed;
   background-repeat: no-repeat;
 
-  font-family: "Vibur", cursive;
-  /*   the main font */
-  font-family: "Abel", sans-serif;
+  /* font-family: "Vibur", cursive;
+ 
+  font-family: "Abel", sans-serif; */
   opacity: 0.95;
   /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
 }
@@ -39,7 +39,7 @@ form {
   margin: 2% auto;
   box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
   padding: 2%;
-  background-image: linear-gradient(-225deg, #e3fdf5 50%, #ffe6fa 50%);
+  background-image: linear-gradient(-225deg, #a0331bd2 50%, #0f167cb6 50%);
 }
 /* form Container */
 form .con {
@@ -64,11 +64,12 @@ header {
 header h2 {
   font-size: 250%;
   font-family: "Playfair Display", serif;
-  color: #3e403f;
+  color: white;
 }
 /*  A welcome message or an explanation of the login form */
 header p {
   letter-spacing: 0.05em;
+  color: white !important;
 }
 
 /* //////////////////////////////////////////// */
@@ -109,7 +110,7 @@ input[class="form-input"] {
 
   font-size: 16px;
   font-family: "Abel", sans-serif;
-  color: #5e6472;
+  color: black;
 
   outline: none;
   border: none;

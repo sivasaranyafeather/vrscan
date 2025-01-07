@@ -55,19 +55,19 @@
 .nav-item a {
   color: #000000;
 }
-.appointment{
+.appointment {
   border: none;
   border-radius: 10px;
-  font-weight:500;
+  font-weight: 500;
   background-color: green;
 }
-.appointment a{
+.appointment a {
   color: white;
 }
-.appointment:hover{
+.appointment:hover {
   background-color: #fdc543;
 }
-.appointment a:hover{
+.appointment a:hover {
   color: black;
 }
 @media only screen and (max-width: 774px) {
@@ -80,7 +80,6 @@
     display: none;
   }
 }
-
 
 .card {
   background-color: #182e76;
@@ -95,14 +94,14 @@
   .navbar img {
     width: 35%;
   }
-  .appointment{
+  .appointment {
     border: none;
     border-radius: 10px;
-    font-weight:200;
+    font-weight: 200;
     background-color: green;
     font-size: 1rem;
   }
-  .appointment a{
+  .appointment a {
     color: white;
   }
 }
@@ -227,8 +226,8 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .need{
-    display: none;  
+  .need {
+    display: none;
   }
 }
 
@@ -237,7 +236,6 @@
 }
 
 @keyframes wobble {
-
   0% {
     transform: translateX(0%);
   }
@@ -270,7 +268,8 @@
 /* footer ares start -------------------------------------------*/
 .footer {
   /* background-color: #182e76; */
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   padding: 20px;
 }
 .footer h4 {
@@ -289,7 +288,7 @@
   position: relative;
   padding-bottom: 8px;
 }
-.foot a{
+.foot a {
   color: #182e76;
 }
 .foot h4::after {
@@ -343,7 +342,7 @@
   width: 6%;
 }
 @media only screen and (max-width: 600px) {
-  .whats_pin img{
+  .whats_pin img {
     width: 15%;
   }
 }
@@ -366,6 +365,3 @@
 .swiper-button-prev::after {
   display: none;
 }
-
-
-

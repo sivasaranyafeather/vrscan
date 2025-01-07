@@ -608,7 +608,7 @@ h6 {
 }
 
 .sweet-alert button.confirm {
-  background-color: #f3da0b !important;
+  background-color: #182e76 !important;
 }
 
 .sweet-alert .sa-input-error {
@@ -1110,7 +1110,7 @@ button.close {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-color: #f3da0btransparent transparent;
+  border-color: #182e76transparent transparent;
   border-width: 10px;
   margin-left: -10px;
 }
@@ -1445,7 +1445,7 @@ a.bg-default:hover {
 
 a.bg-primary:focus,
 a.bg-primary:hover {
-  background-color: ##f3da0b !important;
+  background-color: ##182e76 !important;
   color: #fff;
 }
 
@@ -3011,7 +3011,7 @@ table.matrics-table tr:first-child td {
   font-size: 13px;
   text-transform: uppercase;
   border-radius: 2px 0 0 2px;
-  background: #f3da0b;
+  background: #182e76;
   color: #fff;
   letter-spacing: 1px;
   font-weight: 600;
@@ -6057,7 +6057,7 @@ a[data-toggle="lightbox"] .img-fluid {
 /*====== Image-sizes css ends ======*/
 /*======= Text css starts ===========*/
 .text-primary {
-  color: #f3da0b !important;
+  color: #182e76 !important;
 }
 
 .text-warning {
@@ -6081,7 +6081,7 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .text-info {
-  color: #f3da0b !important;
+  color: #182e76 !important;
 }
 
 .text-custom {
@@ -6120,7 +6120,7 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .label-primary {
-  background: linear-gradient(45deg, #4099ff, ##f3da0b);
+  background: linear-gradient(45deg, #4099ff, ##182e76);
 }
 
 .label-warning {
@@ -6144,7 +6144,7 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .label-info {
-  background: linear-gradient(45deg, #f3da0b, #08e3ff);
+  background: linear-gradient(45deg, #182e76, #08e3ff);
 }
 
 .label-warning {
@@ -6154,7 +6154,7 @@ a[data-toggle="lightbox"] .img-fluid {
 /*======= Label-color css starts  ======= */
 /*======= Badge-color css starts  ======= */
 .badge-primary {
-  background: linear-gradient(45deg, #4099ff, ##f3da0b);
+  background: linear-gradient(45deg, #4099ff, ##182e76);
 }
 
 .badge-warning {
@@ -6178,7 +6178,7 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .badge-info {
-  background: linear-gradient(45deg, #f3da0b, #08e3ff);
+  background: linear-gradient(45deg, #182e76, #08e3ff);
 }
 
 /*======= Badge-color css end  ======= */
@@ -6200,7 +6200,7 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .bg-primary {
-  background-color: #f3da0b !important;
+  background-color: #182e76 !important;
   color: #fff;
 }
 
@@ -6230,7 +6230,7 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .bg-info {
-  background-color: #f3da0b !important;
+  background-color: #182e76 !important;
   color: #fff;
 }
 
@@ -6261,13 +6261,13 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .color-info {
-  background-color: #f3da0b;
+  background-color: #182e76;
 }
 
 /*======= Button-color css ends  ======= */
 /*======= Loader-color css starts  ======= */
 .loader-primary {
-  background-color: #f3da0b !important;
+  background-color: #182e76 !important;
 }
 
 .loader-warning {
@@ -6291,13 +6291,13 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .loader-info {
-  background-color: #f3da0b !important;
+  background-color: #182e76 !important;
 }
 
 /*======= Loader-color css ends  ======= */
 /*======= Nestable-color css starts  ======= */
 .nestable-primary {
-  background-color: #f3da0b !important;
+  background-color: #182e76 !important;
   border-color: #4099ff;
   color: #fff !important;
 }
@@ -6333,8 +6333,8 @@ a[data-toggle="lightbox"] .img-fluid {
 }
 
 .nestable-info {
-  background-color: #f3da0b !important;
-  border-color: #f3da0b;
+  background-color: #182e76 !important;
+  border-color: #182e76;
   color: #fff !important;
 }
 
@@ -6379,7 +6379,7 @@ table tbody .border-bottom-inverse td {
 table thead .border-bottom-info th,
 table tbody .border-bottom-info th,
 table tbody .border-bottom-info td {
-  border-bottom: 1px solid #f3da0b;
+  border-bottom: 1px solid #182e76;
 }
 
 /*======= Table-Border-Bottom-color css ends  ======= */
@@ -6458,9 +6458,9 @@ table tbody .border-bottom-info td {
 
 .table-styling .table-info,
 .table-styling.table-info {
-  background-color: #f3da0b;
+  background-color: #182e76;
   color: #fff;
-  border: 3px solid #f3da0b;
+  border: 3px solid #182e76;
 }
 .table-styling .table-info thead,
 .table-styling.table-info thead {
@@ -6471,7 +6471,7 @@ table tbody .border-bottom-info td {
 /*======= Table styling css ends  ======= */
 /*======= Toolbar css starts  ======= */
 .toolbar-primary .tool-item {
-  background: #f3da0b !important;
+  background: #182e76 !important;
 }
 
 .toolbar-primary .tool-item.selected,
@@ -6480,7 +6480,7 @@ table tbody .border-bottom-info td {
 }
 
 .toolbar-primary.tool-top .arrow {
-  border-color: #f3da0btransparent transparent;
+  border-color: #182e76transparent transparent;
 }
 
 .toolbar-primary.tool-bottom .arrow {
@@ -6492,7 +6492,7 @@ table tbody .border-bottom-info td {
 }
 
 .toolbar-primary.tool-right .arrow {
-  border-color: transparent #f3da0btransparent transparent;
+  border-color: transparent #182e76transparent transparent;
 }
 
 .btn-toolbar-primary.pressed {
@@ -6645,7 +6645,7 @@ table tbody .border-bottom-info td {
 }
 
 .toolbar-info .tool-item {
-  background: #f3da0b !important;
+  background: #182e76 !important;
 }
 
 .toolbar-info .tool-item.selected,
@@ -6654,23 +6654,23 @@ table tbody .border-bottom-info td {
 }
 
 .toolbar-info.tool-top .arrow {
-  border-color: #f3da0b transparent transparent;
+  border-color: #182e76 transparent transparent;
 }
 
 .toolbar-info.tool-bottom .arrow {
-  border-color: transparent transparent #f3da0b;
+  border-color: transparent transparent #182e76;
 }
 
 .toolbar-info.tool-left .arrow {
-  border-color: transparent transparent transparent #f3da0b;
+  border-color: transparent transparent transparent #182e76;
 }
 
 .toolbar-info.tool-right .arrow {
-  border-color: transparent #f3da0b transparent transparent;
+  border-color: transparent #182e76 transparent transparent;
 }
 
 .btn-toolbar-info.pressed {
-  background-color: #f3da0b;
+  background-color: #182e76;
 }
 
 /*======= Toolbar css ends  ======= */
@@ -6700,7 +6700,7 @@ table tbody .border-bottom-info td {
 }
 
 .card-border-info {
-  border-top: 4px solid #f3da0b;
+  border-top: 4px solid #182e76;
 }
 
 /*======= Card-Border-Top-color css ends  ======= */
@@ -6730,7 +6730,7 @@ table tbody .border-bottom-info td {
 }
 
 .panels-wells .panel-info {
-  border-color: #f3da0b;
+  border-color: #182e76;
 }
 
 /*======= Panels-wells-color css ends  ======= */
@@ -6832,19 +6832,19 @@ table tbody .border-bottom-info td {
 }
 
 .b-t-info {
-  border-top: 1px solid #f3da0b;
+  border-top: 1px solid #182e76;
 }
 
 .b-b-info {
-  border-bottom: 1px solid #f3da0b;
+  border-bottom: 1px solid #182e76;
 }
 
 .b-l-info {
-  border-left: 1px solid #f3da0b;
+  border-left: 1px solid #182e76;
 }
 
 .b-r-info {
-  border-right: 1px solid #f3da0b;
+  border-right: 1px solid #182e76;
 }
 
 .b-t-theme {
@@ -6938,7 +6938,7 @@ table tbody .border-bottom-info td {
 }
 
 .bg-c-blue {
-  background: linear-gradient(45deg, #4099ff, ##f3da0b);
+  background: linear-gradient(45deg, #4099ff, ##182e76);
 }
 
 .text-c-blue {
@@ -7441,7 +7441,7 @@ table tbody .border-bottom-info td {
   .profile-notification
   li {
   border-top: 1px solid #4099ff, #f1c40f, #e0e0e0, #ff5370, #2ed8b6, #222,
-    #f3da0b;
+    #182e76;
   line-height: initial;
   padding: 1em 20px;
   width: 100%;
@@ -11729,10 +11729,10 @@ table tbody .border-bottom-info td {
     linear,
     left top,
     right top,
-    from(#f3da0b),
-    to(#f3da0b)
+    from(#182e76),
+    to(#182e76)
   ) !important;
-  background: linear-gradient(to right, #f3da0b, #f3da0b) !important;
+  background: linear-gradient(to right, #182e76, #182e76) !important;
   color: #fff !important;
 }
 .pcoded
@@ -11748,7 +11748,7 @@ table tbody .border-bottom-info td {
   .pcoded-item
   > li.active
   > a:before {
-  border-left-color: #f3da0b;
+  border-left-color: #182e76;
 }
 .pcoded
   .pcoded-navbar[active-item-theme="theme4"]
@@ -12834,9 +12834,9 @@ table tbody .border-bottom-info td {
     left top,
     right top,
     from(#0071f3),
-    to(#f3da0b)
+    to(#182e76)
   );
-  background-color: #f3da0b !important;
+  background-color: #182e76 !important;
   color: #fff;
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
@@ -12917,9 +12917,9 @@ table tbody .border-bottom-info td {
     left top,
     right top,
     from(#0071f3),
-    to(##f3da0b)
+    to(##182e76)
   );
-  background: linear-gradient(to right, #0071f3, ##f3da0b);
+  background: linear-gradient(to right, #0071f3, ##182e76);
 }
 #styleSelector .style-cont {
   background-color: #f6f7fb;
@@ -13244,9 +13244,9 @@ table tbody .border-bottom-info td {
     left top,
     right top,
     from(#0071f3),
-    to(##f3da0b)
+    to(##182e76)
   );
-  background: linear-gradient(to right, #0071f3, ##f3da0b);
+  background: linear-gradient(to right, #0071f3, ##182e76);
 }
 .theme-color a[header-theme="theme5"] .head:after,
 .theme-color a[header-theme="theme5"] .head:before {
@@ -13489,10 +13489,10 @@ table tbody .border-bottom-info td {
     linear,
     left top,
     right top,
-    from(#f3da0b),
-    to(#f3da0b)
+    from(#182e76),
+    to(#182e76)
   );
-  background: linear-gradient(to right, #f3da0b, #f3da0b);
+  background: linear-gradient(to right, #182e76, #182e76);
 }
 .pcoded .pcoded-header[header-theme="theme5"] a {
   color: #fff;
@@ -14052,8 +14052,8 @@ body.menu-bottom #collapse-menu {
 .btn-primary:hover,
 .sweet-alert button.confirm:hover,
 .wizard > .actions a:hover {
-  background-color: ##f3da0b;
-  border-color: ##f3da0b;
+  background-color: ##182e76;
+  border-color: ##182e76;
 }
 .btn-primary:active,
 .sweet-alert button.confirm:active,
@@ -14070,7 +14070,7 @@ body.menu-bottom #collapse-menu {
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
-  background-color: ##f3da0b;
+  background-color: ##182e76;
 }
 .btn-primary.disabled,
 .sweet-alert button.disabled.confirm,
@@ -14201,8 +14201,8 @@ body.menu-bottom #collapse-menu {
 }
 
 .btn-info {
-  background-color: #f3da0b;
-  border-color: #f3da0b;
+  background-color: #182e76;
+  border-color: #182e76;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all ease-in 0.3s;
@@ -14342,15 +14342,15 @@ body.menu-bottom #collapse-menu {
     linear,
     left top,
     right top,
-    from(##f3da0b),
+    from(##182e76),
     color-stop(51%, #0378ff),
-    to(##f3da0b)
+    to(##182e76)
   );
   background-image: linear-gradient(
     to right,
-    ##f3da0b 0%,
+    ##182e76 0%,
     #0378ff 51%,
-    ##f3da0b 100%
+    ##182e76 100%
   );
 }
 .btn-grd-primary.hor-grd {
@@ -14358,15 +14358,15 @@ body.menu-bottom #collapse-menu {
     linear,
     left bottom,
     left top,
-    from(##f3da0b),
+    from(##182e76),
     color-stop(51%, #0378ff),
-    to(##f3da0b)
+    to(##182e76)
   );
   background-image: linear-gradient(
     to top,
-    ##f3da0b 0%,
+    ##182e76 0%,
     #0378ff 51%,
-    ##f3da0b 100%
+    ##182e76 100%
   );
 }
 
@@ -14540,15 +14540,15 @@ body.menu-bottom #collapse-menu {
     linear,
     left top,
     right top,
-    from(##f3da0b),
+    from(##182e76),
     color-stop(51%, #0378ff),
-    to(##f3da0b)
+    to(##182e76)
   );
   background-image: linear-gradient(
     to right,
-    ##f3da0b 0%,
+    ##182e76 0%,
     #0378ff 51%,
-    ##f3da0b 100%
+    ##182e76 100%
   );
 }
 .btn-grd-disabled.hor-grd {
@@ -14556,15 +14556,15 @@ body.menu-bottom #collapse-menu {
     linear,
     left bottom,
     left top,
-    from(##f3da0b),
+    from(##182e76),
     color-stop(51%, #0378ff),
-    to(##f3da0b)
+    to(##182e76)
   );
   background-image: linear-gradient(
     to top,
-    ##f3da0b 0%,
+    ##182e76 0%,
     #0378ff 51%,
-    ##f3da0b 100%
+    ##182e76 100%
   );
 }
 
@@ -14633,7 +14633,7 @@ body.menu-bottom #collapse-menu {
 }
 
 .btn-info.btn-mat {
-  background-color: #f3da0b;
+  background-color: #182e76;
 }
 .btn-info.btn-mat:before {
   background-color: #008697;
@@ -14693,7 +14693,7 @@ body.menu-bottom #collapse-menu {
 }
 
 .btn-info .badge {
-  color: #f3da0b;
+  color: #182e76;
   background-color: #fff;
 }
 
@@ -14807,7 +14807,7 @@ body.menu-bottom #collapse-menu {
 
 .dropdown-info .dropdown-menu a:hover,
 .dropdown-split-info .dropdown-menu a:hover {
-  background-color: #f3da0b;
+  background-color: #182e76;
   color: #fff;
 }
 
@@ -14995,18 +14995,18 @@ body.menu-bottom #collapse-menu {
 }
 
 .form-control-info {
-  border-color: #f3da0b;
-  color: #f3da0b;
+  border-color: #182e76;
+  color: #182e76;
 }
 .form-control-info:focus {
-  border-color: #f3da0b;
+  border-color: #182e76;
 }
 
 .input-group-info .input-group-addon {
-  background-color: #f3da0b;
+  background-color: #182e76;
 }
 .input-group-info .form-control {
-  border-color: #f3da0b;
+  border-color: #182e76;
 }
 
 /*===== Form Input-Text start =====*/
@@ -15113,20 +15113,20 @@ body.menu-bottom #collapse-menu {
 }
 
 .form-txt-info {
-  color: #f3da0b;
+  color: #182e76;
 }
 .form-txt-info:focus {
-  color: #f3da0b;
+  color: #182e76;
 }
 .form-txt-info::-moz-placeholder {
-  color: #f3da0b;
+  color: #182e76;
   opacity: 1;
 }
 .form-txt-info:-ms-input-placeholder {
-  color: #f3da0b;
+  color: #182e76;
 }
 .form-txt-info::-webkit-input-placeholder {
-  color: #f3da0b;
+  color: #182e76;
 }
 
 /*===== Form Background-inputs start =====*/
@@ -15257,13 +15257,13 @@ body.menu-bottom #collapse-menu {
 }
 
 .form-bg-info {
-  background-color: #f3da0b;
-  border-color: #f3da0b;
+  background-color: #182e76;
+  border-color: #182e76;
   color: #fff;
 }
 .form-bg-info:focus {
-  background-color: #f3da0b;
-  border-color: #f3da0b;
+  background-color: #182e76;
+  border-color: #182e76;
   color: #fff;
 }
 .form-bg-info::-moz-placeholder {
@@ -15344,12 +15344,12 @@ body.menu-bottom #collapse-menu {
   transition: all ease-in 0.3s;
 }
 .input-group-button .input-group-addon:hover {
-  background-color: ##f3da0b;
-  border-color: ##f3da0b;
+  background-color: ##182e76;
+  border-color: ##182e76;
 }
 .input-group-button .input-group-addon:hover .btn {
-  background-color: ##f3da0b;
-  border-color: ##f3da0b;
+  background-color: ##182e76;
+  border-color: ##182e76;
 }
 
 .input-group-dropdown [class*="btn-"] {
@@ -15613,26 +15613,26 @@ body.menu-bottom #collapse-menu {
 }
 
 .radio.radiofill.radio-info .helper::after {
-  background-color: #f3da0b;
-  border-color: #f3da0b;
+  background-color: #182e76;
+  border-color: #182e76;
 }
 .radio.radiofill.radio-info .helper::before {
-  border-color: #f3da0b;
+  border-color: #182e76;
 }
 .radio.radio-outline.radio-info .helper::after {
   background-color: #fff;
-  border: 0.225rem solid #f3da0b;
+  border: 0.225rem solid #182e76;
 }
 .radio.radio-outline.radio-info .helper::before {
-  border-color: #f3da0b;
+  border-color: #182e76;
 }
 .radio.radio-matrial.radio-info input ~ .helper::after {
   background-color: #fff;
   border-color: #fff;
 }
 .radio.radio-matrial.radio-info input ~ .helper::before {
-  background-color: #f3da0b;
-  border-color: #f3da0b;
+  background-color: #182e76;
+  border-color: #182e76;
 }
 
 /*===== Radio Button css ends =====*/
@@ -15801,13 +15801,13 @@ body.menu-bottom #collapse-menu {
 .border-checkbox-section
   .border-checkbox-group-info
   .border-checkbox-label:before {
-  border: 2px solid #f3da0b;
+  border: 2px solid #182e76;
 }
 .border-checkbox-section
   .border-checkbox-group-info
   .border-checkbox:checked
   + .border-checkbox-label:after {
-  border-color: #f3da0b;
+  border-color: #182e76;
 }
 
 /*===== zoom Fade-in-checkbox css start =====*/
@@ -16007,13 +16007,13 @@ body.menu-bottom #collapse-menu {
 .checkbox-fade.zoom-info .cr,
 .checkbox-zoom.fade-in-info .cr,
 .checkbox-zoom.zoom-info .cr {
-  border: 2px solid #f3da0b;
+  border: 2px solid #182e76;
 }
 .checkbox-fade.fade-in-info .cr .cr-icon,
 .checkbox-fade.zoom-info .cr .cr-icon,
 .checkbox-zoom.fade-in-info .cr .cr-icon,
 .checkbox-zoom.zoom-info .cr .cr-icon {
-  color: #f3da0b;
+  color: #182e76;
 }
 
 /*===== Color-checkbox css start =====*/
@@ -16122,7 +16122,7 @@ body.menu-bottom #collapse-menu {
 }
 
 .checkbox-info input[type="checkbox"]:checked + label::before {
-  background-color: #f3da0b;
+  background-color: #182e76;
 }
 
 /*===== Tag input css start =====*/
@@ -16393,7 +16393,7 @@ span.badge {
 .label-inverse-primary {
   border: 1px solid;
   border-color: #4099ff;
-  color: #f3da0b !important;
+  color: #182e76 !important;
 }
 
 .label-inverse-success {
@@ -16416,8 +16416,8 @@ span.badge {
 
 .label-inverse-info {
   border: 1px solid;
-  border-color: #f3da0b;
-  color: #f3da0b !important;
+  border-color: #182e76;
+  color: #182e76 !important;
 }
 
 .label-inverse-info-border {
@@ -16435,7 +16435,7 @@ span.badge {
 .badge-inverse-primary {
   border: 1px solid;
   border-color: #4099ff;
-  color: #f3da0b !important;
+  color: #182e76 !important;
 }
 
 .badge-inverse-success {
@@ -16594,7 +16594,7 @@ table.table-bordered.dataTable tbody td:focus {
 
 td.highlight {
   font-weight: 700;
-  color: #f3da0b;
+  color: #182e76;
   background-color: #f5f5f5;
 }
 
@@ -17765,8 +17765,8 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 
 .alert-info {
   background-color: #fff;
-  border-color: #f3da0b;
-  color: #f3da0b;
+  border-color: #182e76;
+  color: #182e76;
 }
 
 .alert-warning {
@@ -17811,11 +17811,11 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 
 .border-info {
   border-color: transparent;
-  border-left: 3px solid #f3da0b;
+  border-left: 3px solid #182e76;
   border-radius: 0;
   -webkit-box-shadow: 0 0 1px #999;
   box-shadow: 0 0 1px #999;
-  color: #f3da0b;
+  color: #182e76;
 }
 
 .border-warning {
@@ -17853,7 +17853,7 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 }
 
 .background-info {
-  background-color: #f3da0b;
+  background-color: #182e76;
   color: #fff;
 }
 
@@ -17890,7 +17890,7 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
  ========================================= */
 .common-img-bg {
   background-size: cover;
-  background: linear-gradient(45deg, #4099ff, ##f3da0b);
+  background: linear-gradient(45deg, #4099ff, ##182e76);
   height: 100%;
 }
 
@@ -18277,7 +18277,7 @@ table.footable-paging-center > tfoot > tr.footable-paging > td {
 }
 
 .info-breadcrumb {
-  background-color: #f3da0b;
+  background-color: #182e76;
 }
 
 .warning-breadcrumb {

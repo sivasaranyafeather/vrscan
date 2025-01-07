@@ -104,17 +104,17 @@ if (isset($_POST['update'])) {
 		</a>
 	  </div>
        <!-- Pre-loader start -->
-    <div class="theme-loader">
+    <!-- <div class="theme-loader">
         <div class="loader-track">
             <div class="loader-bar"></div>
         </div>
-    </div>
+    </div> -->
     <!-- Pre-loader end -->
     <div id="pcoded" class="pcoded">
         <div class="pcoded-overlay-box"></div>
         <div class="pcoded-container navbar-wrapper">
 
-            <nav class="navbar header-navbar pcoded-header" style="background: linear-gradient(to right, #f3da0b, #f3da0b);">
+            <nav class="navbar header-navbar pcoded-header" style="background: linear-gradient(to right, #182e76, #182e76);">
                <div class="navbar-wrapper">
                    <div class="navbar-logo">
                        <a class="mobile-menu" id="mobile-collapse" href="#!">
@@ -183,7 +183,7 @@ if (isset($_POST['update'])) {
                         <div class="pcoded-inner-navbar main-menu">
                             
                             <ul class="pcoded-item pcoded-left-item">
-                                <li class="active"  style="background: linear-gradient(to right, #f3da0b, #f3da0b);">
+                                <li class="active"  style="background: linear-gradient(to right, #182e76, #182e76);">
                                     <a href="index.php">
                                         <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>

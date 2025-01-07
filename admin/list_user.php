@@ -69,8 +69,8 @@ if (!isset($_SESSION['user'])) {
                                                 while ($row = mysqli_fetch_array($run)) {
                                                     $i++;
                                                   
-                                                    ?>
-                                                    <tr>
+                                                    ?>            
+                                                    <tr>      
                                                         <td style="width:10%;"><?php echo $i; ?></td>
                                                         <td style="text-align:center;width:15%;">
                                                           <?php echo $row['username']; ?>
